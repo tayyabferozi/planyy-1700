@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- DATE PICKER -->
+
+    <link rel="stylesheet" href="./assets/css/mc-calendar.min.css" />
+
+    <!-- BOOTSTRAP -->
+
+    <link rel="stylesheet" href="./assets/css/bootstrap-utilities.min.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap-gird.min.css" />
+
+    <!-- CUSTOM STYLESHEETS -->
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/utilities.css" />
+
+    <title>Uploading</title>
+  </head>
+  <body>
+    <div id="dark-overlay-dropdown"></div>
+    <div id="dark-overlay"></div>
+
+    <section id="uploading">
+      <div class="custom-modal bottem-aligned">
+        <div class="close top-right">
+          <img src="./assets/images/close.svg" alt="close" />
+        </div>
+        <div class="modal-head">
+          <div class="container-fluid">
+            <div class="d-flex justify-content-between align-items-center">
+              <img
+                src="./assets/vector/back-arrow.svg"
+                alt="arrow"
+                class="back"
+              />
+
+              <button class="btn btn-bg-primary">Continue</button>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body mt-sm-3 mt-4">
+          <div class="container-fluid">
+            <div class="details-container">
+              <div class="details-item">
+                <div class="details-box green">
+                  <h4 class="box-title fs-14 fs-1619-12">STEP 1</h4>
+
+                  <div class="box-content">
+                    <div class="box-subtitle fs-1619-14">Basic Details</div>
+                    <div class="box-text fs-1619-14">
+                      Tell us about yourself to understand your interest and
+                      choices.
+                    </div>
+                    <img
+                      class="edit"
+                      src="./assets/vector/edit-detail.svg"
+                      alt="edit"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="details-item">
+                <div class="details-box green">
+                  <h4 class="box-title fs-14 fs-1619-12">STEP 2</h4>
+
+                  <div class="box-content">
+                    <div class="box-subtitle fs-1619-14">Bank Details</div>
+                    <div class="box-text fs-1619-14">
+                      As per SEBI, it is mandatory for you to add your bank
+                      account details.
+                    </div>
+                    <img
+                      class="edit"
+                      src="./assets/vector/edit-detail.svg"
+                      alt="edit"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="details-item">
+                <div class="details-box green">
+                  <h4 class="box-title fs-14 fs-1619-12">STEP 3</h4>
+
+                  <div class="box-content">
+                    <div class="box-subtitle fs-1619-14">Signature</div>
+                    <div class="box-text fs-1619-14">
+                      Your signature should match with your PAN Card’s
+                      signature.
+                    </div>
+                    <img
+                      class="edit"
+                      src="./assets/vector/edit-detail.svg"
+                      alt="edit"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="uploading d-768-none">
+              <div class="upload-head d-flex justify-content-between">
+                <div
+                  class="
+                    file-info
+                    d-flex
+                    justify-content-start
+                    align-items-center
+                  "
+                >
+                  <div class="file-img d-flex">
+                    <img src="./assets/vector/file.svg" alt="file" />
+                  </div>
+                  <div class="file-name">
+                    <h4 class="fw-normal fs-14">Pan card.jpg</h4>
+                  </div>
+                </div>
+                <div class="cancel">
+                  <img src="./assets/vector/cancel-upload.svg" alt="cancel" />
+                </div>
+              </div>
+              <div class="upload-body">
+                <div class="bg"></div>
+                <div class="progress"></div>
+              </div>
+              <div class="upload-footer mt-1">
+                <h4 class="fw-normal text-end text-light-2 fs-14 fs-1619-12">
+                  128kb
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="bottom-btn btn btn-bg-primary d-769-none">
+          Continue
+        </button>
+      </div>
+    </section>
+
+    <!-- DATE PICKER -->
+
+    <script src="./assets/js/mc-calendar.min.js"></script>
+
+    <!-- JQUERY -->
+
+    <script src="./assets/js/jquery.min.js"></script>
+
+    <!-- CUSTOM -->
+
+    <script defer src="./assets/js/common.js"></script>
+    <script defer src="./assets/js/select.js"></script>
+    <script defer src="./assets/js/details.js"></script>
+  </body>
+</html>
